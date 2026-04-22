@@ -23,7 +23,7 @@ public class TestePessoa {
 		
 		System.out.print("\n Digite seu CPF: ");
 		String cpfDigitado = ler.next();
-		p2.nome = cpfDigitado;
+		p2.cpf = cpfDigitado;
 		
 		p1.exibir();
 		p2.exibir();
