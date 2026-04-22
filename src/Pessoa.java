@@ -11,4 +11,7 @@ public class Pessoa {
 		this.cpf = cpf;
 	}
 	
+	void exibir(){
+		System.out.println("\n |Nome: "+ nome + "\n |Idade: " + idade + "\n |CPF: " +  cpf);
+	}
 }
